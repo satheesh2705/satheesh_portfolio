@@ -56,8 +56,13 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm S Maithen`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1><h3>Hi! I'am </h3> Maithenkumar <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Helo! My name Maithenkumar, and I am a passionate Full Stack Developer. With one year of professional experience and a strong foundation in web development, I am constantly honing my skills and expanding my knowledge.<br/>
+                  <br/>
+
+I love working on exciting projects, both in my current role and through freelancing opportunities. These experiences have given me the chance to collaborate with diverse teams and clients, enriching my problem-solving abilities and creativity.<br/>
+<br/>
+Currently in my final year of study, I am eager to showcase my work and journey as a developer through this portfolio. Here, you will find a collection of my latest projects, experiments, and accomplishments. I am dedicated to creating clean and user-friendly solutions, always aiming to leave a positive impact on the web.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

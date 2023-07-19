@@ -6,6 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import { FileEasel } from "react-bootstrap-icons";
 
 export const Skills = () => {
   const responsive = {
@@ -35,24 +36,51 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <p>Hello, I'm Maithenkumar, a versatile Full Stack Developer with a strong passion for crafting innovative solutions. My diverse skill set includes expertise in Flutter, React, Node.js, MongoDB, MySQL, SQL, Docker, JavaScript, Java, HTML, and CSS.</p>
+                        <Carousel responsive={responsive} infinite={false} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Flutter</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Reactjs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>nodejs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Docker</h5>
                             </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Mongodb</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Sql</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>HTML</h5>
+                            </div><div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>CSS</h5>
+                            </div><div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Java Script</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Java </h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Dart</h5>
+                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>
