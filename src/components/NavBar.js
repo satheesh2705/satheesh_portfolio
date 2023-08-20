@@ -3,6 +3,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
+import resume from "../assets/resume/myresume.pdf";
+
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -10,6 +12,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  const downlodResume=(url)=>{
+    const aTag=document.createElement("a");
+    aTag.href=url;
+    aTag.setAttribute('download','myresume.pdf')
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+
+  }
 
   useEffect(() => {
     const onScroll = () => {
@@ -83,11 +94,11 @@ export const NavBar = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
+              
+                <button className="vvd" onClick={()=>downlodResume(resume)}>
                   <span>Get Resume</span>
                 </button>
-              </HashLink>
+              
             </span>
           </Navbar.Collapse>
         </Container>
