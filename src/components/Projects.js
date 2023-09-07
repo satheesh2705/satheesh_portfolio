@@ -20,11 +20,7 @@ export const Projects = () => {
       description: "",
       imgUrl: projImg2,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+   
 
   ];
 
