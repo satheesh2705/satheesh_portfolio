@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/project-img4.png";
+import projImg3 from "../assets/img/project-img5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,6 +21,21 @@ export const Projects = () => {
       title: "Social midea site",
       description: "",
       imgUrl: projImg2,
+    },
+    {
+      title: "Multi Streaming Application",
+      description: "",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Excusesai AI Application",
+      description: "",
+      imgUrl: projImg4,
+    },
+    {
+      title: "Profile picker edit Application ",
+      description: "",
+      imgUrl: projImg5,
     },
    
 
