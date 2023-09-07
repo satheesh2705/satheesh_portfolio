@@ -36,7 +36,7 @@ export const Projects = () => {
       title: "Profile picker edit Application ",
       description: "",
       imgUrl: projImg5,
-    },
+    }
    
 
   ];
