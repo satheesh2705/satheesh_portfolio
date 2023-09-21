@@ -1,10 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/whether_application.jpeg";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
+import projImg1 from "../assets/prj/wheather-app.png";
+import projImg2 from "../assets/prj/blog-ui.jpeg";
+import projImg3 from "../assets/prj/chat-gpt.png";
+import projImg4 from "../assets/prj/cycle_ui.jpeg";
+import projImg5 from "../assets/prj/insta-ui.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,34 +13,35 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Food Ordring Applications",
-      description: "",
+      title: "Wheather_application",
+      description: "API Integration for App",
+      imgUrl: projImg3,
       imgUrl: projImg1,
-      link:'https://github.com/maithenkumar/food_website'
+      link:''
     },
     {
-      title: "Social midea site",
+      title: "Blog_application",
       description: "",
       imgUrl: projImg2,
-      link:'https://github.com/maithenkumar/socila_midea_in_React'
+      link:''
     },
     {
-      title: "Multi Streaming Application",
-      description: "",
+      title: "Chat_GPT",
+      description: "API Integration for App",
       imgUrl: projImg3,
       link:''
     },
     {
-      title: "Excusesai AI Application",
-      description: "",
+      title: "Cycle_store",
+      description: "E-commerce for web",
       imgUrl: projImg4,
-      link:'https://play.google.com/store/apps/details?id=com.frontendforever.excusesai'
+      link:''
     },
     {
-      title: "Profile picker edit Application ",
-      description: "",
+      title: "Instagram_UI",
+      description: "Html&Css for web",
       imgUrl: projImg5,
-      link:'https://play.google.com/store/apps/details?id=com.frontendforever.pfpmaker'
+      link:''
     }
    
   ];

@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.png";
-import resume from "../assets/resume/myresume.pdf";
+import resume from "../assets/resume/satheesh.pdf";
 
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
@@ -15,7 +15,7 @@ export const NavBar = () => {
   const downlodResume=(url)=>{
     const aTag=document.createElement("a");
     aTag.href=url;
-    aTag.setAttribute('download','myresume.pdf')
+    aTag.setAttribute('download','satheesh.pdf')
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
