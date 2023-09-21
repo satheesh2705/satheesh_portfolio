@@ -84,13 +84,13 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/maitheen-kumar-7079bb246">
+                <a href="https://www.linkedin.com/in/satheesh-s-068097267/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://github.com/maithenkumar">
+                <a href="https://github.com/satheesh2705">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/__maitheen__/">
+                <a href="https://www.instagram.com/blue_lover2705/">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>

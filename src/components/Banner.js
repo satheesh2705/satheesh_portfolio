@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.png";
+import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -69,7 +69,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    <h3>Hi! I'am </h3> Maithenkumar{" "}
+                    <h3>Hi! I'am </h3> Satheesh{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -79,7 +79,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Helo! My name Maithenkumar, and I am a passionate Full Stack
+                    Helo! My name Satheesh, and I am a passionate Full Stack
                     Developer. With one year of professional experience and a
                     strong foundation in web development, I am constantly honing
                     my skills and expanding my knowledge.
