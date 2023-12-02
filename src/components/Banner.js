@@ -86,7 +86,7 @@ export const Banner = () => {
                     <br />
                     <br />
                     I love working on exciting projects, both in my current role
-                    and through freelancing opportunities. These experiences
+                    and through work opportunities. These experiences
                     have given me the chance to collaborate with diverse teams
                     and clients, enriching my problem-solving abilities and
                     creativity.

@@ -38,37 +38,39 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>Hello, I'm Satheesh, a versatile Full Stack Developer with a strong passion for crafting innovative solutions. My diverse skill set includes expertise in Flutter, MongoDB, MySQL, SQL,Java, HTML, and CSS.</p>
                         <Carousel responsive={responsive} infinite={false} className="owl-carousel owl-theme skill-slider">
+                           
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Flutter</h5>
+                                <img src={meter3} alt="Image" />
+                                <h5>Java</h5>
                             </div>
                            
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Java</h5>
+                                <h5>Flutter</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>MySql</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>React.js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Spring boot</h5>
+                                <img src={meter3} alt="Image" />
+
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>HTML</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>MySQL</h5>
                             </div><div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>CSS</h5>
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5> Dart </h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>MongoDB </h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Dart</h5>
+                                <h5>HTML & CSS</h5>
                             </div>
                             
                         </Carousel>
