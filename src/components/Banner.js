@@ -12,9 +12,9 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "FullStack Develop",
-    "FullStack Develop",
-    "FullStack Develop",
+    "FullStack Developer",
+    "FullStack Developer",
+    " Web Developer",
   ];
   const period = 2000;
 

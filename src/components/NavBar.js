@@ -1,12 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.png";
-import resume from "../assets/resume/SATHEESH S.pdf";
-
+import resume from "../assets/resume/SATHEESH.pdf";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -73,9 +70,7 @@ export const NavBar = () => {
               <Nav.Link
                 href="#projects"
                 className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
+                  activeLink === "projects" ? "active navbar-link" : "navbar-link"
                 }
                 onClick={() => onUpdateActiveLink("projects")}
               >
@@ -90,7 +85,7 @@ export const NavBar = () => {
                 <a href="https://github.com/satheesh2705">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/blue_lover2705/">
+                <a href="https://www.instagram.com/mr_black2705/">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>

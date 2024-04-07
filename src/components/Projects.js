@@ -5,7 +5,7 @@ import projImg2 from "../assets/prj/blog-ui.jpeg";
 import projImg3 from "../assets/prj/chat-gpt.png";
 import projImg4 from "../assets/prj/cycle_ui.jpeg";
 import projImg5 from "../assets/prj/insta-ui.jpeg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/keyboard.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -21,25 +21,25 @@ export const Projects = () => {
     },
     {
       title: "Blog_application",
-      description: "",
+      description: "UI for Mobile App using Flutter",
       imgUrl: projImg2,
       link:''
     },
     {
       title: "Chat_GPT",
-      description: "API Integration for App",
+      description: "API Integration for Mobile App",
       imgUrl: projImg3,
       link:''
     },
     {
       title: "Cycle_store",
-      description: "E-commerce for web",
+      description: "E-commerce for web using Html&Css",
       imgUrl: projImg4,
       link:''
     },
     {
       title: "Instagram_UI",
-      description: "Html&Css for web",
+      description: "Html &Css for web",
       imgUrl: projImg5,
       link:''
     }
