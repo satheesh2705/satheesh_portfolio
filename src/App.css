@@ -127,7 +127,7 @@ span.navbar-text {
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .social-icon a::before {
     content: "";
@@ -236,7 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/lap.jpg');
   background-position: top center;
-  background-size: cover;
+    background-size: cover;
   background-repeat: no-repeat;
 }
 .banner .tagline {
@@ -348,6 +348,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
+
+
 .project {
   padding: 80px 0;
   position: relative;
