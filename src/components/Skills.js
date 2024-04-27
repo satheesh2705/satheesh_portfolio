@@ -43,15 +43,14 @@ export const Skills = () => {
                                 <img src={meter3} alt="Image" />
                                 <h5>Java</h5>
                             </div>
-                           
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Flutter</h5>
+                                <img src={meter3} alt="Image" />
+                                <h5>React.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>React.js</h5>
-                            </div>
+                                <h5>Flutter</h5>
+                            </div> 
                             <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>JavaScript</h5>
@@ -62,7 +61,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>MySQL</h5>
+                                <h5>SQL</h5>
                             </div><div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>MongoDB</h5>

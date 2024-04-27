@@ -80,7 +80,7 @@ export const Banner = () => {
                   </h1>
                   <p>
                     Helo! My name Satheesh, and I am a passionate Full Stack
-                    Developer. With one year of professional experience and a
+                    Developer. With Professional experience and a
                     strong foundation in web development, I am constantly honing
                     my skills and expanding my knowledge.
                     <br />
