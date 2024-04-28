@@ -12,7 +12,7 @@ export const NavBar = () => {
   const downlodResume=(url)=>{
     const aTag=document.createElement("a");
     aTag.href=url;
-    aTag.setAttribute('download','Satheesh.pdf')
+    aTag.setAttribute('download','SATHEESH_SARAVANAN.pdf')
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
