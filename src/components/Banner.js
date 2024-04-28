@@ -79,7 +79,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Helo! My name Satheesh, and I am a passionate Full Stack
+                    Helo! This is Satheesh Saravanan, and I am a passionate Full Stack
                     Developer. With Professional experience and a
                     strong foundation in web development, I am constantly honing
                     my skills and expanding my knowledge.

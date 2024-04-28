@@ -36,7 +36,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Hello, I'm Satheesh, a versatile Full Stack Developer with a strong passion for crafting innovative solutions. My diverse skill set includes expertise in Flutter, MongoDB, MySQL, SQL,Java, HTML, and CSS.</p>
+                        <p>Hello, I'm Satheesh, a versatile Full Stack Developer with a strong passion for crafting innovative solutions. My diverse skill set includes expertise in Java, React js, Flutter, SQL, JavaScript, HTML, and CSS.</p>
                         <Carousel responsive={responsive} infinite={false} className="owl-carousel owl-theme skill-slider">
                            
                             <div className="item">
