@@ -84,7 +84,7 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
-                                />
+                                />  
                             )
                           })
                         }

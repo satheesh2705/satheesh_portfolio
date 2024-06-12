@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";  
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
@@ -79,7 +79,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Helo! This is Satheesh Saravanan, and I am a passionate Full Stack
+                    Hello! This is Satheesh Saravanan, and I am a passionate Full Stack
                     Developer. With Professional experience and a
                     strong foundation in web development, I am constantly honing
                     my skills and expanding my knowledge.
