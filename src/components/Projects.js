@@ -14,14 +14,14 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "SocialMedia Real Time chats and Posts",
-      description: "Dynamic & Responsive App Using React.js ",
+      title: "SocialMedia",
+      description: " Real Time chats and Posts Social media Dynamic & Responsive App Using React.js ",
       imgUrl: projImg1,
       link:'https://github.com/satheesh2705/React_social_media'
     },
     {
       title: "Blog_Application",
-      description: "Mobile App using Flutter UI",
+      description: "A user-friendly Flutter Blog Application",
       imgUrl: projImg2,
       link:'#'
     },
