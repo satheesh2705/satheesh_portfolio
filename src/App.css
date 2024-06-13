@@ -628,3 +628,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+#sendBtn{
+  border-radius: 5px;
+}
+#descriptiontosendMessage{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 25px;
+  font-size: 1.65rem;
+  margin-bottom: 20px;
+}
+
+#sendDetails{
+  margin-top: 20px;
+}

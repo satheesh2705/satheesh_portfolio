@@ -92,7 +92,7 @@ export const Banner = () => {
                     creativity.
                     <br />
                     <br />
-                    Currently in my final year of study, I am eager to showcase
+                    Currently in my final year study was complete and I am eager to showcase
                     my work and journey as a developer through this portfolio.
                     Here, you will find a collection of my latest projects,
                     experiments, and accomplishments. I am dedicated to creating

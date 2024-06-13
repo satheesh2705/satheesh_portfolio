@@ -59,9 +59,9 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 {/* <h2>Get In Touch</h2> */}
-                <span style={{fontSize:30}}>                Thank you for visiting my portfolio, and I hope my work reflects my passion and dedication to the world of wespan development. Feel free to reach out if you have any questions or exciting opportunities to collaborate!
+                <span id="descriptiontosendMessage" style={{padding:"0 0 15px 0"}}> Thank you for visiting my portfolio, and I hope my work reflects my passion and dedication to the world of wespan development. Feel free to reach out if you have any questions or exciting opportunities to collaborate!
 </span>
-                <form onSubmit={handleSubmit}>
+                <form id="sendDetails" onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -77,7 +77,7 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <button id="sendBtn" type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
                       status.message &&

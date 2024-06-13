@@ -1,4 +1,5 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav }  from "react-bootstrap";
+// import MailchimpForm from "./MailchimpForm"
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/prj/social_media_app_reactjs.png";
 import projImg2 from "../assets/prj/blog_app.png";
@@ -94,7 +95,9 @@ export const Projects = () => {
                       <p> </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p> </p>
+                      <p>
+                       
+                      </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
