@@ -61,7 +61,7 @@ export const Contact = () => {
                 {/* <h2>Get In Touch</h2> */}
                 <span style={{fontSize:30}}>                Thank you for visiting my portfolio, and I hope my work reflects my passion and dedication to the world of wespan development. Feel free to reach out if you have any questions or exciting opportunities to collaborate!
 </span>
-                {/* <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -86,7 +86,7 @@ export const Contact = () => {
                       </Col>
                     }
                   </Row>
-                </form> */}
+                </form>
               </div>}
             </TrackVisibility>
           </Col>
